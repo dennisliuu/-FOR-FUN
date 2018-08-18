@@ -5,6 +5,7 @@
           <ul>
             <li v-for="(value, key) in menu_json" v-on:click="getItemurl(value)">{{ key }}</li>
             <li><router-link to="/" style="text-decoration: none; color: white;">iOS</router-link></li>
+            <li><a href="https://www.ptt.cc/bbs/fastfood/M.1517141295.A.208.html" style="text-decoration: none;">優惠查詢</a></li>
           </ul>
         </nav>
       </div>
@@ -169,7 +170,7 @@
   width: 100%;
   height: 100vh;
   margin: 0;
-  padding: 40px 0 0 0;
+  padding: 35px 0 0 0;
   background-color: rgba(113, 201, 181, 1);
 }
 

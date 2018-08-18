@@ -5,7 +5,7 @@
           <ul>
             <li v-for="(value, key) in menu_json" v-on:click="getItemurl(value)">{{ key }}</li>
             <li><router-link to="Android" style="text-decoration: none; color: white;">Android</router-link></li>
-            <li>Verson 1.0</li>
+            <li><a href="https://www.ptt.cc/bbs/fastfood/M.1517141295.A.208.html" style="text-decoration: none;">優惠查詢</a></li>
           </ul>
         </nav>
       </div>
@@ -29,12 +29,7 @@
           
         </header>
         
-        <div id="item_page" class="coupon">
-          <div class="warning_text" id="warning_text">
-            <h1>該應用僅作學術練習，切勿濫用!!</h1>
-            <p>作者：劉維仁 dennisliuu@github.</p>            
-          </div>
-        </div>
+        <div id="item_page" class="coupon"></div>
 
         <div class="footer">
           <button id="redeem" class="redeem" v-on:click="Use_coupon">兌換優惠</button>
@@ -72,7 +67,7 @@
     },
     methods: {
       Open_menu: function (event) {
-        document.getElementById('warning_text').style.display = "none"
+        // document.getElementById('warning_text').style.display = "none"
         var cont = document.getElementById('cont')
         var search_bg = document.getElementById('search_bg')
         if (this.isActive) {
@@ -214,7 +209,7 @@
   padding-top: 10%;
   background-repeat: no-repeat;
   background-position: center center; 
-  background-image: url('https://i.imgur.com/N8DrkrD.png');
+  background-image: url('https://imgur.com/D8Jn5cp.jpg');
   background-size: 100% 100%;
 }
 

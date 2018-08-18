@@ -1,11 +1,15 @@
 {
   "嫩煎雞腿堡": "./static/nen_jian_ji_tuei_bau.jpg",
   "搖搖雞": "./static/yau_yau_ji.jpg",
-  "薯餅": "./static/shu_bing.jpg",
-  "薯條": "./static/shu_tiau.jpg",
+  "薯餅 1+1": "./static/shu_bing.jpg",
+  "薯條 1+1": "./static/shu_tiau.jpg",
   "黃金蝦堡": "./static/shrimp.jpg",
   "勁辣雞腿堡": "./static/hot_chicken.jpg",
   "全餐＋雞翅": "./static/set_BBQ.jpg",
   "可可布朗冰炫風": "./static/cocoice2.jpg",
-  "八塊雞": "./static/4chicken.jpg"
+  "八塊雞": "./static/4chicken.jpg",
+  "大麥克": "./static/Bigmark.jpg",
+  "香香魚": "./static/fishbg.jpg",
+  "冰炫風套餐": "./static/ice.jpg",
+  "version 1.1": "./static/home.jpg"
 }
